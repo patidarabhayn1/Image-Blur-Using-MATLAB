@@ -1,0 +1,5 @@
+img = imread('example.png');
+output = blur(img,2);
+imshow(output);
+
+%HERE THE SECOND ARGUMENT SENDS THE LEVEL OF BLUR WE WANT
